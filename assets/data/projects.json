@@ -1,0 +1,5 @@
+[
+  {"id":"protein","index":"01","title":"Protein Design","titleZh":"Functional Alignment","description":"We work with life-science research on enzyme-function prediction, error correction, novel-function discovery, and intelligent breeding.","signal":"SEQUENCE / FUNCTION"},
+  {"id":"fusion","index":"02","title":"Fusion Energy","titleZh":"Simulation and Control","description":"Across inertial- and magnetic-confinement fusion, we investigate intelligent multi-physics plasma simulation, parameter optimization, and steady-state control.","signal":"PLASMA / CONTROL"},
+  {"id":"physics","index":"03","title":"High-Energy Physics","titleZh":"Scientific Facilities","description":"For large-scale scientific facilities, we study AI-assisted beamline optimization, imaging analysis, scientific computing, and research-data management.","signal":"BEAM / IMAGING"}
+]

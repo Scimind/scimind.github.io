@@ -25,6 +25,16 @@
 .loop__framework figcaption{display:flex;justify-content:space-between;gap:30px;padding:15px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase}
 .loop__framework figcaption span{color:var(--cyan)}
 
+.mission h2 em{color:#126874}
+.loop__rail{top:120px}
+.loop__return::before{content:none}
+.pi__portrait{aspect-ratio:3/4;display:block;background:#07111c}
+.pi__portrait::before{content:none}
+.pi__portrait img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 38%;filter:saturate(.88) contrast(1.03)}
+.pi__portrait figcaption{position:absolute;left:18px;right:18px;bottom:16px;padding-top:12px;border-top:1px solid rgba(255,255,255,.22);color:#d9e8ed;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;text-shadow:0 1px 8px #000}
+.pi__portrait::after{content:"";position:absolute;inset:auto 0 0;height:24%;background:linear-gradient(transparent,rgba(3,10,17,.78));pointer-events:none}
+.pi__portrait figcaption{z-index:1}
+
 @media(max-width:1100px){
   .research-card--2,.research-card--3{display:flex}
   .research-card__media{flex-basis:230px}
